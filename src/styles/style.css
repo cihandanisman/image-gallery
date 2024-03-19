@@ -1,0 +1,29 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+.App img {
+  height: 200px;
+  width: 200px;
+  transition: transform 0.5s ease;
+  overflow: hidden;
+  object-fit: cover;
+
+}
+.main {
+    overflow: hidden;
+}
+.App img:hover {
+  transform: scale(1.1);
+  
+  
+}
